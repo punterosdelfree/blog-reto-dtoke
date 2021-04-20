@@ -1,39 +1,80 @@
-*{
-    box-sizing: content-box;
-}
 
-body{
-    margin: 0;
-}
-
-header{
+.top-header{
     font-family: 'Asap Condensed', cursive;
     text-transform: uppercase;
-    font-weight: 600;
     background-color: #a8d8c0;
     margin: 0;
     text-align: center;
     padding: 1em;
     word-spacing: 0.65em;
 }
-    
-header h2{
-    font-size: 1.1rem;
-    font-weight: 600;
+
+.top-header h2{
+    font-weight: 700;
 }
 
-header span{
-    font-weight: 200;
-    font-size: 0.95rem;
-    letter-spacing: 0.2em;
+.top-header span{
+    font-weight: 400;
+}
+
+.logo{
+    width: 180px;
+    max-height: 250px;
+}
+
+.blog-title h1{
+    font-family: 'Asap Condensed', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.blog-title h3{
+    font-family: 'Asap Condensed', cursive;
+    font-weight: 600;
+    color: #F99939;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.link-red{
+    text-decoration: underline !important;
+    color:#F99939 !important;
+}
+
+.fab.fa-twitter{
+    margin-right: 0;
     margin-left: 0.25em;
 }
 
-main{
-    text-align: center;
+.fab.fa-facebook{
+    margin-left: 0;
 }
 
-h1{
-    font-family: 'Orelega One', cursive;
+.graf{
+    max-width: 80%;
+    margin: 0.5em auto 0.5em auto;
+}
+
+.main-text{
+    font-family: 'Asap Condensed', cursive;
+    font-size: 1.2rem;
+    font-weight: 400; 
+    line-height: 1.6;
+    width: 75% !important;
+}
+
+.main-text h2{
     font-size: 2rem;
+    font-weight: 600;
+    margin: 1.2em auto 1em auto
+}
+
+.subsection {
+    display: table;
+    padding: 0.2em;
+    text-align: center;
+    background: #F99939;
 }
